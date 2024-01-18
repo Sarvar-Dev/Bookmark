@@ -225,7 +225,7 @@ img{
 .tabs__link:active{
     opacity: 0.6;
 }
-.tabs__link-active .tabs__link{
+.tabs__item--active .tabs__link{
     color:var(--text-color);
     border-color: var(--red-col);
 }
