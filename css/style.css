@@ -168,12 +168,21 @@ img{
 /* FEATURE-TAB-PANEL */
 .feature-tab-panel {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 .feature-tab-panel__img {
     margin-right: 30px;
     object-fit: contain;
+}
+.feature-tab-panel__img--bookmark-manager{
+    margin-right: 125px;
+}
+.feature-tab-panel__img--simple{
+    margin-right: 115px;
+}
+.feature-tab-panel__img--sharing{
+    margin-right: 145px;
 }
 .feature-tab-panel__info {
     max-width: 445px;
