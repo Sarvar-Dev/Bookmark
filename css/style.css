@@ -293,6 +293,7 @@ img{
     align-items: center;
     padding-top: 20px;
     padding-bottom: 13px;
+    padding-right: 25px;
 }
 .accordion__item-header:hover .accordion__item-title{
     color:var(--red-col);
@@ -329,7 +330,7 @@ img{
 .accordion__item-toggler-icon{
     color:var(--blue-col);
 }
-.accorion__item--open .accordion__item-toggler-icon{
+.accordion__item--open .accordion__item-toggler-icon{
     transform: rotate(180deg);
     color:var(--red-col);
 }
@@ -339,7 +340,7 @@ img{
     padding-bottom: 29px;
     color:var(--text-color-75);
 }
-.accorion__item--open .accordion__item-content{
+.accordion__item--open .accordion__item-content{
     display: block;
 }
 .accordion__item-text {
@@ -491,6 +492,9 @@ img{
 /* FAQ */
 .faq{
     padding-bottom: 150px;
+}
+.faq__section-info{
+    margin-bottom: 56px;
 }
 .faq__inner{
     display: flex;
